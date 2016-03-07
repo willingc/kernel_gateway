@@ -1,0 +1,6 @@
+traitlets>=4
+tornado>=4.1
+jinja2
+pamela
+sqlalchemy>=1.0
+requests
