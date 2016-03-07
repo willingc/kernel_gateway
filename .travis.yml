@@ -14,7 +14,7 @@ install:
 
 script:
     - jupyter kernelgateway --help
-    - nosetests -x --process-restartworker
+    - py.test --cov kernel_gateway kernel_gateway/tests -v
 
 after_success:
     - codecov
